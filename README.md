@@ -51,68 +51,76 @@ pip install -r requirements.txt
 
 ### 1. Posting
 
-Cliente HTTP/API completo y usable desde la terminal — una suerte de “Postman en consola”. Ideal para desarrollar, probar APIs o explorar endpoints sin salir de la terminal. ([Textual Documentation][1])
+Cliente HTTP/API completo y usable desde la terminal — una suerte de “Postman en consola”. Ideal para desarrollar, probar APIs o explorar endpoints sin salir de la terminal.
+
 **URL**: [https://posting.sh/](https://posting.sh/)
 
 ---
 
 ### 2. Dolphie
 
-Herramienta de monitoreo y administración para bases de datos MySQL/MariaDB/ProxySQL con interfaz TUI. Perfecto para administradores DB o desarrolladores que necesitan supervisar bases en tiempo real. ([Textualize][2])
+Herramienta de monitoreo y administración para bases de datos MySQL/MariaDB/ProxySQL con interfaz TUI. Perfecto para administradores DB o desarrolladores que necesitan supervisar bases en tiempo real.
 **URL (GitHub)**: [https://github.com/charles-001/dolphie](https://github.com/charles-001/dolphie)
 
 ---
 
 ### 3. Elia
 
-Cliente de terminal para interactuar con modelos de lenguaje (LLMs / ChatGPT / similares). Útil para quien trabaja en ciencia de datos, NLP, prototipado rápido de consultas a LLMs sin salir de la terminal. ([Darren Burns][3])
-**URL (GitHub)**: [https://github.com/matthiasbeyer/elia](https://github.com/matthiasbeyer/elia)
+Cliente de terminal para interactuar con modelos de lenguaje (LLMs / ChatGPT / similares). Útil para quien trabaja en ciencia de datos, NLP, prototipado rápido de consultas a LLMs sin salir de la terminal.
+
+**URL (GitHub)**: [https://github.com/darrenburns/elia](https://github.com/darrenburns/elia)
 
 ---
 
 ### 4. Harlequin
 
-IDE de base de datos en la terminal: permite trabajar con bases SQL desde TUI, similar a herramientas gráficas pero en consola. Ideal para desarrolladores que prefieren trabajar sin salir del editor o terminal. ([GitHub][4])
+IDE de base de datos en la terminal: permite trabajar con bases SQL desde TUI, similar a herramientas gráficas pero en consola. Ideal para desarrolladores que prefieren trabajar sin salir del editor o terminal.
+
 **URL (GitHub)**: [https://github.com/tconbeer/harlequin](https://github.com/tconbeer/harlequin)
 
 ---
 
 ### 5. Toolong
 
-Visualizador/manipulador de archivos de log, JSONL y otros streams de texto desde terminal con interfaz interactiva. Muy útil para desarrolladores y operaciones (DevOps) que necesitan analizar logs rápidamente desde consola. ([Textual Documentation][1])
-**URL (GitHub)**: [https://github.com/anishathalye/toolong](https://github.com/anishathalye/toolong)
+Visualizador/manipulador de archivos de log, JSONL y otros streams de texto desde terminal con interfaz interactiva. Muy útil para desarrolladores y operaciones (DevOps) que necesitan analizar logs rápidamente desde consola.
+
+**URL (GitHub)**: [https://github.com/Textualize/toolong](https://github.com/Textualize/toolong)
 
 ---
 
 ### 6. gupshup
 
-Cliente de chat en terminal hecho con Textual — puede servir para mensajería, chat bots, o integración con servicios de mensajería desde consola. Útil para desarrolladores que crean apps de chat o integraciones desde la terminal. ([GitHub][4])
-**URL (GitHub)**: [https://github.com/matthiasbeyer/gupshup](https://github.com/matthiasbeyer/gupshup)
+Cliente de chat en terminal hecho con Textual — puede servir para mensajería, chat bots, o integración con servicios de mensajería desde consola. Útil para desarrolladores que crean apps de chat o integraciones desde la terminal.
+
+**URL (GitHub)**: [https://github.com/kraanzu/gupshup](https://github.com/kraanzu/gupshup)
 
 ---
 
 ### 7. kupo
 
-Explorador de archivos en terminal, con interfaz amigable y navegación visual. Útil para quienes trabajan frecuentemente en terminal y quieren una interfaz mejor que `ls`/`cd` simples. ([GitHub][4])
-**URL (GitHub)**: [https://github.com/anishathalye/kupo](https://github.com/anishathalye/kupo)
+Explorador de archivos en terminal, con interfaz amigable y navegación visual. Útil para quienes trabajan frecuentemente en terminal y quieren una interfaz mejor que `ls`/`cd` simples.
+
+**URL (GitHub)**: [https://github.com/darrenburns/kupo](https://github.com/darrenburns/kupo)
 
 ---
 
-### 8. NoteSH
+### 8. Net-Textorial
 
-Aplicación de notas adhesivas (“sticky-notes”) en terminal, basada en Textual — ideal para productividad, tomar apuntes rápidos sin salir de la terminal. ([GitHub][5])
-**URL (GitHub)**: [https://github.com/jmhobbs/notesh](https://github.com/jmhobbs/notesh)
+Herramienta TUI para ingenieros de redes que parsea datos de dispositivos de red comparando salida CLI cruda vs estructurada. Útil para automatización de redes.
+
+**URL**: <https://github.com/dannywade/net-textorial>
 
 ---
 
-### 9. textual‑paint
+### 9. Trogon
 
-Editor de dibujo en terminal — “MS Paint en la consola”. Puede ser útil como experimento, demo, o base para herramientas ASCII-art, edición rápida de arte en terminal o prototipos. ([GitHub][6])
-**URL (GitHub)**: [https://github.com/oleksis/textual-paint](https://github.com/oleksis/textual-paint)
+Genera interfaces terminales amigables automáticamente para aplicaciones CLI basadas en Click. Perfecto para desarrollo de herramientas de línea de comandos.
+
+**URL**: <https://github.com/Textualize/trogon>
 
 ---
 
 ### 10. termtyper
 
 Aplicación de práctica de mecanografía (typing test) en terminal, construida con Textual. Buena para demos, para ver cómo Textual maneja eventos de teclado, widgets dinámicos y actualización de UI en tiempo real. ([GitHub][5])
-**URL (GitHub)**: [https://github.com/oleksis/termtyper](https://github.com/oleksis/termtyper)
+**URL (GitHub)**: [https://github.com/jenniferdewan/termtyper](https://github.com/jenniferdewan/termtyper)
