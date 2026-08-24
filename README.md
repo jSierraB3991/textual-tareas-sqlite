@@ -1,10 +1,8 @@
-# Textual Tareas MongoDB
+# Textual Tareas SQLite
 
+[![Textual Tareas CRUD con SQLite](https://img.youtube.com/vi/0WohGIjuyH4/0.jpg)](https://www.youtube.com/watch?v=0WohGIjuyH4)
 
-[![Textual Tareas CRUD con MongoDB](https://img.youtube.com/vi/0WohGIjuyH4/0.jpg)](https://www.youtube.com/watch?v=0WohGIjuyH4)
-
-
-Aplicación TUI construida con **Textual**, **MongoDB**, **Pydantic** y arquitectura modular.  
+Aplicación TUI construida con **Textual**, **SQLite**, **Pydantic** y arquitectura modular.
 Permite crear, editar, listar y eliminar tareas usando una interfaz de terminal moderna y dinámica.
 
 Este repositorio también incluye una presentación interactiva creada con **reveal-md**, así como las instrucciones para generar su versión en PDF.
@@ -17,7 +15,7 @@ Este repositorio también incluye una presentación interactiva creada con **rev
 ├ .env               # Configuración de entorno
 ├ app.py             # Punto de entrada principal
 ├ conky_config.conf  # Configuración del widget Conky
-├ db.py              # Conexión a MongoDB
+├ db.py              # Conexión a SQLite
 ├ TareaSchema.py     # sModelo de validación Pydantic
 ├ MainScreen.py      # Pantalla Principal
 ├ requirements.txt   # Dependencias del proyecto
@@ -30,8 +28,8 @@ Este repositorio también incluye una presentación interactiva creada con **rev
 
 ## 📦 Requisitos
 
-- Python 3.11+  
-- MongoDB en ejecución  
+- Python 3.11+
+- SQLite (incluido en Python)
 - Node.js + npm (solo si deseas ver la presentación)
 
 ---
@@ -39,8 +37,8 @@ Este repositorio también incluye una presentación interactiva creada con **rev
 ## 🚀 Instalación del proyecto
 
 ```bash
-git clone https://github.com/fitorec/textual-tareas-mongodb
-cd textual-tareas-mongodb
+git clone https://github.com/fitorec/textual-tareas-sqlite
+cd textual-tareas-sqlite
 python3 -m venv venv
 source venv/bin/activate  # En Linux/Mac
 # o en Windows: venv\Scripts\activate

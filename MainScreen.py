@@ -47,7 +47,7 @@ class MainScreen(Screen):
     ]
 
     def compose(self) -> ComposeResult:
-        yield Header(name="Tareas Mongo CRUD")
+        yield Header(name="Tareas SQLite CRUD")
         self.table = DataTable(
             id="task_table",
             cursor_type="row",  # Selección por fila completa
@@ -70,7 +70,7 @@ class MainScreen(Screen):
         # Limpia la tabla completamente
         self.table.clear()
 
-        # Obtiene todas las tareas desde MongoDB
+        # Obtiene todas las tareas desde SQLite
         tareas = TareaService.list()
 
         # Inserta cada fila en el DataTable

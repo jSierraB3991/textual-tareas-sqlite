@@ -19,7 +19,7 @@ class TareaFormScreen(ModalScreen):
     STATUS_OPTIONS = [
         ("Pendiente", "pendiente"),
         ("En Proceso", "en_progreso"),
-        ("Hecho", "hecho"),
+        ("Hecho", "completado"),
     ]
 
     def __init__(self, mode: str = "create", tarea: dict | None = None, **kwargs):

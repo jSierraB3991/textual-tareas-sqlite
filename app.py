@@ -54,5 +54,5 @@ if __name__ == "__main__":
             TareasApp().run()
         except Exception as e:
             print(f"\nFATAL: La aplicación ha fallado al iniciarse: {e}")
-            print("Asegúrate de que MongoDB esté corriendo y tu archivo .env sea correcto.")
+            print("Asegúrate de que SQLITE_DIR esté definido en tu archivo .env.")
             sys.exit(1)
